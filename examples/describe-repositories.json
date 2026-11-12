@@ -1,0 +1,77 @@
+{
+  "repositories": [
+    {
+      "repositoryArn": "arn:aws:ecr:eu-central-1:123456789012:repository/payments-api",
+      "registryId": "123456789012",
+      "repositoryName": "payments-api",
+      "repositoryUri": "123456789012.dkr.ecr.eu-central-1.amazonaws.com/payments-api",
+      "createdAt": "2024-05-26T00:00:00+00:00",
+      "imageTagMutability": "IMMUTABLE",
+      "imageScanningConfiguration": {
+        "scanOnPush": true
+      },
+      "encryptionConfiguration": {
+        "encryptionType": "KMS",
+        "kmsKey": "arn:aws:kms:eu-central-1:123456789012:key/4e1b2c90-7a11-4d6e-9c2f-0f3a1b7d5e42"
+      }
+    },
+    {
+      "repositoryArn": "arn:aws:ecr:eu-central-1:123456789012:repository/web-frontend",
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "repositoryUri": "123456789012.dkr.ecr.eu-central-1.amazonaws.com/web-frontend",
+      "createdAt": "2024-05-26T00:00:00+00:00",
+      "imageTagMutability": "MUTABLE",
+      "imageScanningConfiguration": {
+        "scanOnPush": false
+      },
+      "encryptionConfiguration": {
+        "encryptionType": "AES256"
+      }
+    },
+    {
+      "repositoryArn": "arn:aws:ecr:eu-central-1:123456789012:repository/legacy-batch",
+      "registryId": "123456789012",
+      "repositoryName": "legacy-batch",
+      "repositoryUri": "123456789012.dkr.ecr.eu-central-1.amazonaws.com/legacy-batch",
+      "createdAt": "2024-05-26T00:00:00+00:00",
+      "imageTagMutability": "IMMUTABLE",
+      "imageScanningConfiguration": {
+        "scanOnPush": true
+      },
+      "encryptionConfiguration": {
+        "encryptionType": "AES256"
+      }
+    },
+    {
+      "repositoryArn": "arn:aws:ecr:eu-central-1:123456789012:repository/ml-trainer",
+      "registryId": "123456789012",
+      "repositoryName": "ml-trainer",
+      "repositoryUri": "123456789012.dkr.ecr.eu-central-1.amazonaws.com/ml-trainer",
+      "createdAt": "2024-05-26T00:00:00+00:00",
+      "imageTagMutability": "IMMUTABLE",
+      "imageScanningConfiguration": {
+        "scanOnPush": true
+      },
+      "encryptionConfiguration": {
+        "encryptionType": "KMS",
+        "kmsKey": "arn:aws:kms:eu-central-1:123456789012:key/4e1b2c90-7a11-4d6e-9c2f-0f3a1b7d5e42"
+      }
+    },
+    {
+      "repositoryArn": "arn:aws:ecr:eu-central-1:123456789012:repository/checkout-worker",
+      "registryId": "123456789012",
+      "repositoryName": "checkout-worker",
+      "repositoryUri": "123456789012.dkr.ecr.eu-central-1.amazonaws.com/checkout-worker",
+      "createdAt": "2024-05-26T00:00:00+00:00",
+      "imageTagMutability": "IMMUTABLE",
+      "imageScanningConfiguration": {
+        "scanOnPush": true
+      },
+      "encryptionConfiguration": {
+        "encryptionType": "KMS",
+        "kmsKey": "arn:aws:kms:eu-central-1:123456789012:key/4e1b2c90-7a11-4d6e-9c2f-0f3a1b7d5e42"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "registryId": "123456789012",
+  "repositoryName": "ml-trainer",
+  "lifecyclePolicyText": "{\"rules\": [{\"rulePriority\": 1, \"description\": \"keep 10 releases\", \"selection\": {\"tagStatus\": \"tagged\", \"tagPrefixList\": [\"release-\"], \"countType\": \"imageCountMoreThan\", \"countNumber\": 10}, \"action\": {\"type\": \"expire\"}}]}"
+}

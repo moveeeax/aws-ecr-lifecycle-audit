@@ -1,0 +1,5 @@
+{
+  "registryId": "123456789012",
+  "repositoryName": "checkout-worker",
+  "lifecyclePolicyText": "{\"rules\": [{\"rulePriority\": 1, \"description\": \"expire after 90 days\", \"selection\": {\"tagStatus\": \"any\", \"countType\": \"sinceImagePushed\", \"countUnit\": \"days\", \"countNumber\": 90}, \"action\": {\"type\": \"expire\"}}, {\"rulePriority\": 2, \"description\": \"keep 30 releases\", \"selection\": {\"tagStatus\": \"tagged\", \"tagPrefixList\": [\"v\"], \"countType\": \"imageCountMoreThan\", \"countNumber\": 30}, \"action\": {\"type\": \"expire\"}}]}"
+}

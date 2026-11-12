@@ -1,0 +1,5 @@
+{
+  "registryId": "123456789012",
+  "repositoryName": "legacy-batch",
+  "lifecyclePolicyText": "{\"rules\": [{\"rulePriority\": 1, \"description\": \"expire everything after 30 days\", \"selection\": {\"tagStatus\": \"any\", \"countType\": \"sinceImagePushed\", \"countUnit\": \"days\", \"countNumber\": 30}, \"action\": {\"type\": \"expire\"}}]}"
+}

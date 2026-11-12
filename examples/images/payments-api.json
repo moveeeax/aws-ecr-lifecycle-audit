@@ -1,0 +1,41 @@
+{
+  "imageDetails": [
+    {
+      "registryId": "123456789012",
+      "repositoryName": "payments-api",
+      "imageDigest": "sha256:0da3174c441a36c80c2ecf4b09fc7fa41ce12ee6433d96db3709dd3b0a5325ab",
+      "imageSizeInBytes": 214000000,
+      "imagePushedAt": "2026-11-09T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+      "imageTags": [
+        "v2.4.1",
+        "latest"
+      ]
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "payments-api",
+      "imageDigest": "sha256:e16bf6b6856554d4796487988a10b6933c6f517cedd6c9f18c0e34f5b35ef75d",
+      "imageSizeInBytes": 213400000,
+      "imagePushedAt": "2026-11-01T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+      "imageTags": [
+        "v2.4.0"
+      ]
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "payments-api",
+      "imageDigest": "sha256:7b0dc85c0b79eefaba95bd922a66c007eba21b96ab25c992b431a5f0905d53c3",
+      "imageSizeInBytes": 212900000,
+      "imagePushedAt": "2026-10-19T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+      "imageTags": [
+        "v2.3.9"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "registryId": "123456789012",
+  "repositoryName": "payments-api",
+  "lifecyclePolicyText": "{\"rules\": [{\"rulePriority\": 1, \"description\": \"drop untagged layers the day after they are orphaned\", \"selection\": {\"tagStatus\": \"untagged\", \"countType\": \"sinceImagePushed\", \"countUnit\": \"days\", \"countNumber\": 1}, \"action\": {\"type\": \"expire\"}}, {\"rulePriority\": 2, \"description\": \"keep the last 2 released versions\", \"selection\": {\"tagStatus\": \"tagged\", \"tagPrefixList\": [\"v\"], \"countType\": \"imageCountMoreThan\", \"countNumber\": 2}, \"action\": {\"type\": \"expire\"}}]}"
+}

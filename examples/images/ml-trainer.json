@@ -1,0 +1,28 @@
+{
+  "imageDetails": [
+    {
+      "registryId": "123456789012",
+      "repositoryName": "ml-trainer",
+      "imageDigest": "sha256:0ffd487f26ca30c0f35cc37a406c980f48092f1772a35c5d8efd2dccd0ea6cd5",
+      "imageSizeInBytes": 3100000000,
+      "imagePushedAt": "2026-10-28T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+      "imageTags": [
+        "v0.9.3"
+      ]
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "ml-trainer",
+      "imageDigest": "sha256:105e480331fb11254bda950bccb96dee74712fd3c08628f6b2299fbc6fb5b0d5",
+      "imageSizeInBytes": 3090000000,
+      "imagePushedAt": "2026-10-03T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+      "imageTags": [
+        "v0.9.2"
+      ]
+    }
+  ]
+}

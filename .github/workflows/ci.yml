@@ -1,0 +1,53 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install
+        run: python -m pip install --upgrade pip && pip install -e '.[dev]'
+
+      - name: Test
+        run: pytest -q
+
+      - name: Audit the shipped examples
+        run: |
+          set +e
+          aws-ecr-lifecycle-audit \
+            --input examples/describe-repositories.json \
+            --policies examples/policies \
+            --images examples/images \
+            --now 2026-11-12T00:00:00Z
+          code=$?
+          set -e
+          # The example registry is deliberately broken, so findings are expected.
+          if [ "$code" -ne 1 ]; then
+            echo "expected exit 1 from the example run, got $code"
+            exit 1
+          fi
+
+      - name: JSON output is machine-readable and --fail-on none exits 0
+        run: |
+          aws-ecr-lifecycle-audit --input examples/bundle.json \
+            --format json --fail-on none --now 2026-11-12T00:00:00Z \
+            | python -c 'import json,sys; d=json.load(sys.stdin); print(d["waste"]["estimated_monthly_usd"])'

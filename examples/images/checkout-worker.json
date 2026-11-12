@@ -1,0 +1,16 @@
+{
+  "imageDetails": [
+    {
+      "registryId": "123456789012",
+      "repositoryName": "checkout-worker",
+      "imageDigest": "sha256:168055c208e5f6663466ac285720c2f34b7232ae20d5a097f0141eb9d3ba3be3",
+      "imageSizeInBytes": 158000000,
+      "imagePushedAt": "2026-11-07T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+      "imageTags": [
+        "v5.1.0"
+      ]
+    }
+  ]
+}

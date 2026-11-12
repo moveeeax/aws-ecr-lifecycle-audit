@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+/.venv/
+/venv/
+/.pytest_cache/
+/.coverage
+/htmlcov/
+/.mypy_cache/
+/.ruff_cache/
+
+# Fixtures under examples/ are part of the test suite: never ignore them.
+!examples/**/*.json

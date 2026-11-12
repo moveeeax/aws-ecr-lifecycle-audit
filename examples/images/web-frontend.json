@@ -1,0 +1,263 @@
+{
+  "imageDetails": [
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:750e083feb2456efdb15bd9350cb14ed3dc74509330caa42b0dae3ad4631bcf1",
+      "imageSizeInBytes": 96000000,
+      "imagePushedAt": "2026-11-10T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+      "imageTags": [
+        "v1.8.2",
+        "latest"
+      ]
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:249af8793f29ca985bbff54560b5ec46443c10d0a08b6e5d499aadd7988dad9f",
+      "imageSizeInBytes": 95800000,
+      "imagePushedAt": "2026-11-03T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+      "imageTags": [
+        "v1.8.1"
+      ]
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:25dcbd6632979e808323b9de8c1f6d6d662729121e2d878565b1fd909231c3e0",
+      "imageSizeInBytes": 94000000,
+      "imagePushedAt": "2026-11-06T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:cd7e5cc2d8f6f2c135952448f29df7693a33efb2d0ede4a4b8aa5c10dcd974af",
+      "imageSizeInBytes": 94011000,
+      "imagePushedAt": "2026-10-16T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:06793d23da2987bff1affe3bac303cbef41618312d1aadd25c8341bb8dbf46ae",
+      "imageSizeInBytes": 94022000,
+      "imagePushedAt": "2026-09-25T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:05631f3a7036c4a2b11fa0c0754377d952bb64b8376477711d0205fd3ca85c92",
+      "imageSizeInBytes": 94033000,
+      "imagePushedAt": "2026-09-04T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:0ab6489b482c36548843283aebac33da1b9cc43ab0512ab47baec6e701d3ba4c",
+      "imageSizeInBytes": 94044000,
+      "imagePushedAt": "2026-08-14T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:c9bfa73606aa00ab7427e9bd8f745dfd2ad203fed1b74d0f114ac5302e37fc84",
+      "imageSizeInBytes": 94055000,
+      "imagePushedAt": "2026-07-24T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:391d3e3ba6849f248f34ed516857bee52876b3a5a3d656b3ce91ca90904de690",
+      "imageSizeInBytes": 94066000,
+      "imagePushedAt": "2026-07-03T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:2e6622dcfd4e1aca78dcbea6949094fe25b3ca5c5200192ed7be0856a4333900",
+      "imageSizeInBytes": 94077000,
+      "imagePushedAt": "2026-06-12T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:94cadd98832cd699da3382c450ca875c91171a2649a6dc75dd3c98e134d889e4",
+      "imageSizeInBytes": 94088000,
+      "imagePushedAt": "2026-05-22T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:3b461c083bb30af14de666fb05d6fd54e36bd2463a41de84366a398129185c38",
+      "imageSizeInBytes": 94099000,
+      "imagePushedAt": "2026-05-01T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:9a3b53bb1e7146501f367c6691d7db5fcc6a92c5cad5da98f5b33ae2923dcae7",
+      "imageSizeInBytes": 94110000,
+      "imagePushedAt": "2026-04-10T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:88ca555c318ead9ea681c473b2a1baf86254edcc316b7c1aaeae88a30a5023da",
+      "imageSizeInBytes": 94121000,
+      "imagePushedAt": "2026-03-20T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:d4f2fa90988adc868b3813c967aee34d560b7deb8d95d5cc677b68bde024f623",
+      "imageSizeInBytes": 94132000,
+      "imagePushedAt": "2026-02-27T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:54cdfd4cee7f4386b70654e90e469d1481d5fd0b271a598f8b171af8b2a5037c",
+      "imageSizeInBytes": 94143000,
+      "imagePushedAt": "2026-02-06T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:ce20eb189d30ddbe98bb8e912bb2d50a946f73a1feb8dbfe2c0aeff3799935e1",
+      "imageSizeInBytes": 94154000,
+      "imagePushedAt": "2026-01-16T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:e0c13d313a16ae3606f175e9973e44db6f383775d880b4a6dc34e1b47610f1e2",
+      "imageSizeInBytes": 94165000,
+      "imagePushedAt": "2025-12-26T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:5805ca34ddae20163c515adc04404ea6c0a73777f422b34a492fdd9efcc9bc14",
+      "imageSizeInBytes": 94176000,
+      "imagePushedAt": "2025-12-05T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:61fd4a31e3031d47fa7329374d31061d58141c3296d5e592e0d1d97fab29471e",
+      "imageSizeInBytes": 94187000,
+      "imagePushedAt": "2025-11-14T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:cddfa69515dcad6389725a80734bf63a9a7b3bb8b7e539a23e1097f35ad0e1b2",
+      "imageSizeInBytes": 94198000,
+      "imagePushedAt": "2025-10-24T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:ef363e352369ebf56e4d8f90256b61d005ebee07950e6385ec7980e15f01e92e",
+      "imageSizeInBytes": 94209000,
+      "imagePushedAt": "2025-10-03T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:342da84149c7a74be8769886c04dedd5a845d4fcabcfd1967696478a550db242",
+      "imageSizeInBytes": 94220000,
+      "imagePushedAt": "2025-09-12T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:ef00e6dbbdaeefa0718ff6641cdcc7b2ec6ba614476331a1ce2d8399bbce1257",
+      "imageSizeInBytes": 94231000,
+      "imagePushedAt": "2025-08-22T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:819d15f4c8097de09674d3472697bb998277b411ef5b57fc259c5423debffc55",
+      "imageSizeInBytes": 94242000,
+      "imagePushedAt": "2025-08-01T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:ea7b8a655747f93583b1e347b1da60011a92e6f0d5388d035e3fcc16429ed455",
+      "imageSizeInBytes": 94253000,
+      "imagePushedAt": "2025-07-11T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:bcce18d9193f8d50035ca4d5c696c87c673ba57e8429dace2f6468de789dc27b",
+      "imageSizeInBytes": 94264000,
+      "imagePushedAt": "2025-06-20T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    },
+    {
+      "registryId": "123456789012",
+      "repositoryName": "web-frontend",
+      "imageDigest": "sha256:44f362faf8e66e4b374a1c7943ae8f9b19980317d011fb92e0e636b504588cff",
+      "imageSizeInBytes": 94275000,
+      "imagePushedAt": "2025-05-30T00:00:00+00:00",
+      "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+    }
+  ]
+}
